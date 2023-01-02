@@ -40,6 +40,7 @@ def bfs():
             if in_degree[x] == 0:
                 time[x] += (maxtime[x]+work_time[x])
                 que.append(x)
+      
 
 bfs()
 print(max(time))
